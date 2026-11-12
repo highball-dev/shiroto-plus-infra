@@ -1,0 +1,30 @@
+# Secrets and local configuration: never commit. `env.example` files are the template.
+.env
+.env.*
+*.env
+!env.example
+!.env.example
+
+# Python build and cache output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Runtime state and logs
+state.json
+*.log
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

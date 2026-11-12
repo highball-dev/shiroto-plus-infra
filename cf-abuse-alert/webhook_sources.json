@@ -1,0 +1,3 @@
+{
+  "_generated": "not generated yet: run `python cf_webhook_baseline.py --days 30`, review the output, then commit. Until this file has profiles, only webhook_rejected is active."
+}
